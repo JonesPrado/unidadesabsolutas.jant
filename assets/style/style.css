@@ -1,0 +1,95 @@
+/* CABEçALHO */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background: #F8F2D7;
+}
+
+header {
+    height: 5.4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2A5B33 scroll;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border: 0.2vw #153E27 solid;
+
+}
+
+.menu { 
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    margin: 0 auto;
+}
+
+.logoMouseRGB {
+    display: block;
+    height: 4vw;
+    border-radius: 1pc;
+    margin-left: 1.5vw;
+    border: rgb(149, 149, 225) 0.1pc;
+    border: 0.2vw #153E27 solid;
+}
+
+.opcoesHeader {
+    list-style: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 3vw;
+}
+
+.opcoesHeader a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2vw;
+    position: relative;
+}
+
+
+/* PAGINA INICIAL */
+
+#titUni{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#unid{
+    width: 30%;
+    border-radius: 2%;
+}
+
+#secUni{
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+#divUni{
+    display: flex;
+    margin: 0 auto;
+    gap: 3vw;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+}
+
+#unidades{
+    width: 20vw;
+}
+#unidadesAbsolutas{
+    max-width: 88%;
+}
+/* RODAPÉ */
