@@ -32,9 +32,10 @@
             <div class="pxDiv">
                 <p> O pixel é uma unidade de medida absoluta, utilizada para definir o tamanho de elementos de forma
                     consistente, independentemente de outros fatores. Embora chamada de "pixel", em CSS representa um
-                    pixel de referência que o navegador converte para o pixel físico da tela. <br>Um pixel é
-                    a menor unidade que compõe uma imagem digital, sendo um pequeno ponto ou quadrado que representa uma
-                    cor específica.
+                    pixel de referência que o navegador converte para o pixel físico da tela. <br> Quando usar: Para precisão em ícones, 
+                    bordas e elementos fixos.
+                    
+                    <br>Porém temos dois tipos de pixels ... 
 
                     <br>
                     
@@ -42,9 +43,13 @@
                     
                     <br>
                     
-                    Milhares ou milhões de pixels, dispostos numa grade, formam as imagens que vemos em
+                    O pixel físico ou de hardware é
+                    a menor unidade que compõe uma imagem digital, sendo um pequeno ponto ou quadrado que representa uma
+                    cor específica.A junção de milhares ou milhões de pixels, dispostos numa grade, formam as imagens que vemos em
                     telas de computadores, televisores e smartphones, com uma maior quantidade de pixels resultando numa
-                    imagem mais detalhada e de maior qualidade. Um pixel físico (hardware) é basicamente
+                    imagem mais detalhada e de maior qualidade. 
+                    <br><br>
+                    Um pixel físico (hardware) é basicamente
                     um ponto de luz na tela enquanto um pixel CSS (software) refere-se a uma unidade de medida absoluta.
                     O fabricante de um dispositivo determina quantos pixels físicos equivalem a um pixel de software.
                 </p>
@@ -54,6 +59,16 @@
                     de uma tela e os pixels lógicos (ou CSS) que os navegadores web usam para renderizar o conteúdo. Ele
                     indica quantos pixels físicos são necessários para representar um único pixel lógico, sendo
                     fundamental para que o conteúdo apareça nítido em telas modernas com alta densidade de pixels.
+                </p>
+                <p> Problemas:
+                    Não é responsivo: não se adapta a diferentes tamanhos de tela.
+                    Pode causar colapso de margens.
+                    Dificulta manter proporções em elementos internos.
+                    Prejudica acessibilidade ao fixar tamanho de fontes.
+                    Compromete a experiência do usuário em diferentes dispositivos.
+                    <br>
+                    Isso não significa que temos que parar de usar as unidades absolutas, 
+                    mas sim saber o melhor lugar onde aplicar para tronar a experiência do usuário melhor
                 </p>
                 <div class="rowImgPx">
                     <img src="assets/img/notebook-pixels.jpg" alt="">
